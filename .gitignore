@@ -1,0 +1,11 @@
+# Keep large/sensitive local datasets out of git
+data/*
+!data/README.md
+results/*
+# Common Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+EDA_PLAN.md
